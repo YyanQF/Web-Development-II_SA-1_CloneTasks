@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Protest+Guerrilla&display=swap');
 
 body {
-    background-color: #e9e9e9; /* Set background color for the entire page */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+    background-color: #e9e9e9; 
+    padding: 0; 
 }
 
 /* Container for the content, with centered layout */
 .container {
     width: 100%;
-    margin: 0 auto;  /* Centers the container horizontally */
+    margin: 0 auto;  
     background-color: white;
     padding: 12px; 
 } 
@@ -30,8 +29,8 @@ header img {
 }
 
 nav {
-    display: flex; /* Uses flexbox for the navigation layout */
-    justify-content: space-between;  /* Distributes navigation items evenly */
+    display: flex; 
+    justify-content: space-between;  
     align-items: center; 
 }
 
@@ -39,8 +38,8 @@ nav a {
     font-size: 18px;
     text-decoration: none;
     color: black;
-    flex: 1; /* Makes the links take equal space */
-    text-align: center; /* Centers the text inside each link */
+    flex: 1; 
+    text-align: center; 
     margin-bottom: 12px;
 }
 
@@ -60,10 +59,10 @@ nav a {
 
 /* Styling for the paragraph under the subtitle */
 .subtitle p {
-    text-align: left; /* Left-aligns the text in the paragraph */
-    margin-top: -10px; /* Moves the paragraph up */
-    font-family: "Josefin Sans", sans-serif; /* Uses a different font for the paragraph */
-    font-size: 18px; /* Font size for the paragraph text */
+    text-align: left; 
+    margin-top: -10px; 
+    font-family: "Josefin Sans", sans-serif; 
+    font-size: 18px; 
 }
 
 .content h2 {
@@ -80,9 +79,9 @@ nav a {
 
 /* Styling for the album images */
 .album img {
-    margin: 0 auto; /* Centers the album images */
-    width: 350px; /* Sets the width of album images */
-    height: 350px; /* Sets the height of album images */
+    margin: 0 auto; 
+    width: 350px;
+    height: 350px; 
     object-fit: cover; 
 }
 
@@ -249,8 +248,8 @@ footer {
     }
 
     .albums {
-        display: grid; /* Using grid layout for albums */
-        grid-template-columns: repeat(2, 1fr);  /* Creates two equal columns */
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr);  
         margin-bottom: 25px; 
         margin-left: 8px;
     }
